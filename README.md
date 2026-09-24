@@ -62,7 +62,7 @@ Approving a bad loan is more than six times as expensive as rejecting a good one
 
 ```text
 Cost_Sensitive_Loan_Approval/
-├── data/                          # Raw & processed datasets (git-ignored)
+├── data/                          # Raw & processed datasets
 │   ├── financial_loan_data.csv
 │   └── Loan.csv
 ├── financial_loan_risk.ipynb      # Full CRISP-DM pipeline & analysis
