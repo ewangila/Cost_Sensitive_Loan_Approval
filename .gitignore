@@ -49,7 +49,6 @@ venv.bak/
 Thumbs.db
 
 # Data files (large CSVs)
-*.csv
 *.xlsx
 *.parquet
 data/
