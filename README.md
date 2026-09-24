@@ -70,3 +70,54 @@ Cost_Sensitive_Loan_Approval/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
+## Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/ewangila/Cost_Sensitive_Loan_Approval.git](https://github.com/ewangila/Cost_Sensitive_Loan_Approval.git)
+   cd Cost_Sensitive_Loan_Approval
+   ```
+   
+2. **Create a virtual environment (recommended)**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate        # Windows: .venv\Scripts\activate
+   ```
+   
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Place the data**
+   Ensure the CSV files are inside the `data/` folder:
+   ```text
+   data/financial_loan_data.csv
+   data/Loan.csv
+   ```
+
+5. **Run the notebook**
+   ```bash
+   jupyter notebook financial_loan_risk.ipynb
+   ```
+
+## Primary Success Metrics
+
+* **Custom Business Cost** — primary optimization objective  
+* **F-β Score (β = 0.5)** — emphasizes precision over recall  
+* **ROC-AUC & PR-AUC** — threshold-independent discrimination  
+* **Cost reduction vs. baseline** — target ≥ 30% improvement  
+
+---
+
+## License
+
+This project is released under the [MIT License](LICENSE).
+
+---
+
+## Author
+
+**Eugin Wangila**  
+[GitHub](https://github.com/ewangila) · Nairobi
