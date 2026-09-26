@@ -2,9 +2,11 @@
 
 > **Business-driven machine learning** for loan decisions — optimizing real financial impact instead of accuracy.
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Framework](https://img.shields.io/badge/Framework-CRISP--DM-orange.svg)](#methodology)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-111111?style=flat)
+![Framework](https://img.shields.io/badge/Framework-CRISP--DM-orange?style=flat)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
@@ -66,7 +68,8 @@ Cost_Sensitive_Loan_Approval/
 │   ├── financial_loan_data.csv
 │   └── Loan.csv
 ├── financial_loan_risk.ipynb      # Full CRISP-DM pipeline & analysis
-├── requirements.txt
+├── pipeline.py                    # Production-ready execution script
+├── requirements.txt               # Dependencies
 ├── .gitignore
 ├── LICENSE
 └── README.md
