@@ -359,7 +359,7 @@ These are proposed enhancements rather than claims about functionality already i
 
 ---
 
-## 📄 License
+## License
 
 This project is released under the **MIT License**. See the [`LICENSE`](LICENSE) file for the full terms.
 
